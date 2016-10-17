@@ -1,4 +1,7 @@
 <div class="row">
+  <div class="jumbotron">
+  <h2><%= node() %></h2>
+  </div>
   <div class="col-md-12 alter alter-info">
     Hello, <span id="User"><%= @conn.params["user"]%> </span>
   </div>
