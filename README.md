@@ -18,3 +18,21 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+mix phoneix.new chat
+
+mix ecto.create
+
+mix phoenix.server
+
+## Tracking online users with Phoenix Presence
+
+mix phoenix.gen.presence
+
+Use Presence module to track who's currently online in your chat room.
+
+--/lib/chat.ex
+
+Add supervisor(Chat.Presence, [])
+
+Add web/channels/room_channel.ex
