@@ -62,6 +62,21 @@ $ PORT=4001 elixir --name n1@127.0.0.1 --erl "-config sys.config" -S mix phoenix
 
 $ PORT=4002 elixir --name n2@127.0.0.1 --erl "-config sys.config" -S mix phoenix.server
 
+
+### Node.disconnect
+
+$ PORT=4001 iex --name n1@127.0.0.1 --erl "-config sys.config" -S mix phoenix.server
+
+$ PORT=4002 iex --name n2@127.0.0.1 --erl "-config sys.config" -S mix phoenix.server
+
+#disconnect the communicate between n1 and n2
+> Node.disconnect(:"n1@127.0.0.1")
+
+Both n1 and n2 has new user join
+
+# reconnect the communicate between n1 and n2
+> Node.connect(:n1@127.0.0.1)
+
 http://work.stevegrossi.com/2016/07/11/building-a-chat-app-with-elixir-and-phoenix-presence/
 
 Phoenix Presence sneak peek – step-by-step walkthrough
