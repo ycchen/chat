@@ -186,3 +186,44 @@ https://dockyard.com/blog/2016/01/28/running-elixir-and-phoenix-projects-on-a-cl
 Source Code:
 
 https://github.com/chrismccord/phoenix_presence_example
+
+
+
+https://github.com/bigardone/phoenix-trello
+https://phoenix-trello.herokuapp.com/
+https://www.learnphoenix.tv/episodes
+https://www.learnelixir.tv/episodes
+
+
+https://medium.com/making-internets/functional-programming-elixir-pt-1-the-basics-bd3ce8d68f1b#.nl3h992uu
+
+https://devfreecasts.org/elixir/
+https://github.com/benjamintanweihao/elixir-sips-downloader
+
+https://teamgaslight.com/blog/the-best-resources-for-learning-elixir
+
+
+https://www.youtube.com/channel/UCsLvAjv5keAz14Sw8yMDasg/videos
+
+
+https://www.youtube.com/channel/UChlCFJe7gDdED1DMFUmpEJg
+
+
+***** How to depoly Phoenix to Heroku Videos
+
+https://www.youtube.com/watch?v=GhJZTFrousI
+
+
+
+https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw/videos
+
+
+https://www.youtube.com/watch?v=_WgrfEaAM4Y&list=PLKrAq_JE16cIzmEpH0f8jVThIcYGo8Pnu
+
+
+https://www.youtube.com/watch?v=9dALrnCOLNE
+
+
+http://work.stevegrossi.com/2016/07/11/building-a-chat-app-with-elixir-and-phoenix-presence/
+
+http://www.cultivatehq.com/posts/phoenix-elm-1/
